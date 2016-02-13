@@ -1,23 +1,15 @@
 {
-  "name": "spryker/spryker",
-  "require":{
+  "name": "spryker/graphviz",
+  "require": {
     "phpdocumentor/graphviz": "dev-master#a906a90"
   },
-  "require-dev": {
-    "spryker/code-sniffer": "dev-master"
-  },
-  "minimum-stability": "stable",
+  "description": "graphviz bundle",
+  "license": "proprietary",
+  "minimum-stability": "dev",
   "prefer-stable": true,
-  "config": {
-    "use-include-path": true
-  },
-  "autoload": {
-    "files": ["Autoload/autoload.php"],
-    "psr-0": {
-      "Spryker\\Shared\\Library": "Bundles/Library/src/"
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
     }
-  },
-  "bin": [
-    "Bundles/Console/bin/console"
-  ]
+  }
 }
